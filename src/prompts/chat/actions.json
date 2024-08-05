@@ -1,34 +1,10 @@
 [
   {
-    "name": "LightsOn",
-    "description": "Turns on the lights"
-  },
-  {
-    "name": "LightsOff",
-    "description": "Turns off the lights"
-  },
-  {
-    "name": "GetLightStatus",
-    "description": "Gets the status of the lights"
-  },
-  {
-    "name": "Pause",
-    "description": "Delays for a period of time",
-    "parameters": {
-      "type": "object",
-      "properties": {
-        "time": {
-          "type": "number",
-          "description": "The amount of time to delay in milliseconds"
-        }
-      },
-      "required": [
-        "time"
-      ]
-    }
-  },
-  {
     "name": "GetWeather",
     "description": "Get current weather through an endpoin call"
+  },
+  {
+    "name": "GetUsername",
+    "description": "Get and return the user's name"
   }
 ]
