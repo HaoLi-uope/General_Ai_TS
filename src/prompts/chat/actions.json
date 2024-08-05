@@ -1,0 +1,10 @@
+[
+  {
+    "name": "GetWeather",
+    "description": "Get current weather through an endpoin call"
+  },
+  {
+    "name": "GetUsername",
+    "description": "Get and return the user's name"
+  }
+]
